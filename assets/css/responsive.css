@@ -309,6 +309,11 @@
         gap: 40px;
     }
 
+    .filtering-box ul {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
     .filtering-box  li {
         font-size: 14px;
     }
