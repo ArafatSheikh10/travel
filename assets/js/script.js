@@ -10,10 +10,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
     // 2. Sticky Menu-Bar
     const navbar = document.querySelector(".nav-area");
     const stickyPoint = 100;
