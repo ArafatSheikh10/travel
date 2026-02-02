@@ -356,8 +356,8 @@ p a{
 }
 
 .sport-image{
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -369,7 +369,7 @@ p a{
 }
 
 .mobail-contact__wraper {
-    width: 220px;
+    width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -409,10 +409,11 @@ p a{
 .adventure-image{
     position: absolute;
     bottom: -15%;
-    right: 0;
+    right: -8%;
     width: 500px;
     height: 400px;
     z-index: -1;
+    opacity: .4;
 }
 
 /* -------------- Sidebar Area End ----------------- */
