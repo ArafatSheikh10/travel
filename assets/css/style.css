@@ -308,7 +308,8 @@ p a{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 70px;
+    align-items: center;
+    padding-top: 70px;
     background-color: var(--white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-top-right-radius: 16px;
@@ -367,8 +368,10 @@ p a{
 }
 
 .mobail-contact__wraper {
+    width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
     margin-top: 40px;
 }
