@@ -115,6 +115,17 @@ $(document).ready(function() {
 
 
 
+    // 3. layout Setting
+    $('.grid-view').on('click', function() {
+        $('.filtering-wraper').addClass('layout-collapse');
+    });
+
+    $('.list-view').on('click', function() {
+        $('.filtering-wraper').removeClass('layout-collapse');
+    });
+
+
+
 
 
 

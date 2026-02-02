@@ -314,7 +314,7 @@ p a{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    z-index: 90;
+    z-index: 1000;
     overflow: hidden;
     transition: var(--transition);
 }
@@ -1843,6 +1843,14 @@ p a{
     border: none;
 }
 
+.listing-btn:focus{
+    color: var(--primary-color);
+}
+
+.listing-btn:focus span{
+    background-color: var(--primary-color);
+}
+
 .grid-view{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1858,13 +1866,18 @@ p a{
 .filtering-wraper{
     display: grid;
     grid-template-columns: 30% 70%;
-    gap: 50px;
+}
+
+.filtering-wraper.layout-collapse{
+    grid-template-columns: 100%;
+    gap: 80px 0;
 }
 
 .filtering-options{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding-right: 40px;
 }
 
 .filtering-box{
@@ -1881,7 +1894,7 @@ p a{
 }
 
 .slider-container {
-    --width: 400px;
+    --width: 100%;
     width: var(--width);
     border: none;
     font-family: sans-serif;
@@ -2000,7 +2013,7 @@ p a{
 .filtering-content{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 40px;
+    gap: 20px;
 }
 
 /* -------------- Filtering Area End ----------------- */
