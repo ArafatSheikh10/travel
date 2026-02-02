@@ -250,7 +250,7 @@ p a{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: var(--white-color);
+    background-color: var(--white);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     opacity: 0;
     visibility: hidden;
@@ -301,10 +301,10 @@ p a{
 .sidebar-area{
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     max-width: 450px;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -314,8 +314,13 @@ p a{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    z-index: 999;
+    z-index: 90;
     overflow: hidden;
+    transition: var(--transition);
+}
+
+.sidebar-area.slide_sidebar{
+    left: 0;
 }
 
 .sidebar_dismess {
@@ -366,6 +371,21 @@ p a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.sidebar-area .nav-menu{
+    width: 270px;
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sidebar-area .nav-menu li a{
+    font-size: 14px;
+}
+
+.sidebar-area .nav-menu .dropdown-content{
+    z-index: 999;
 }
 
 .mobail-contact__wraper {

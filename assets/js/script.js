@@ -34,12 +34,12 @@ $(document).ready(function() {
 
 
     // 3. Nav Menu Sidebar (Mobile)
-    $('.nav_trigger').on('click', function() {
-        $('.sidebar, .overlay').addClass('slide_sidebar');
+    $('.menu_trigger').on('click', function() {
+        $('.sidebar-area').addClass('slide_sidebar');
     });
 
-    $('.nav_dismess, .overlay').on('click', function() {
-        $('.sidebar, .overlay').removeClass('slide_sidebar');
+    $('.sidebar_dismess').on('click', function() {
+        $('.sidebar-area').removeClass('slide_sidebar');
     });
 
 

@@ -23,27 +23,38 @@
         <div class="nav-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3">
+                    <div class="col-xl-3 col-md-3 col-6">
                         <div class="nav-left">
-                            <a href="" class="logo"><img src="assets/image/logo.png" alt="logo"></a>
+                            <a href="index.html" class="logo">
+                                <img src="assets/image/logo.png" alt="logo" class="img-fluid">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                
+                    <div class="col-xl-6 col-md-6 d-none d-md-block">
                         <div class="nav-menu__area">
-                            <ul class="nav-menu">
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Travel</a></li>
-                                <li><a href="">Pages</a></li>
-                                <li><a href="">shop</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Contact us</a></li>
+                            <ul class="nav-menu d-flex justify-content-center list-unstyled mb-0">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">Travel</a></li>
+                                <li><a>Pages</a>
+                                    <ul class="dropdown-content">
+                                        <li><a href="destinations-layout.html">Destinations</a></li>
+                                        <li><a href="destinations-previews.html">Previews</a></li>
+                                        <li><a href="typologies.html">Activities</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="archive.html">Shop</a></li>
+                                <li><a href="destinations-previews.html">Blog</a></li>
+                                <li><a href="services.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="nav-right">
-                            <button class="menu_trigger"><span><i class="fa-solid fa-bars"></i></span></button>
-                            <button class="primary-btn">Search</button>
+                    <div class="col-xl-3 col-md-3 col-6">
+                        <div class="nav-right d-flex align-items-center justify-content-end">
+                            <a href="search.html" class="primary-btn me-1 me-md-3">Search</a>
+                            <button class="menu_trigger btn p-0">
+                                <span><i class="fa-solid fa-bars"></i></span>
+                            </button>
                         </div>
                     </div>
                 </div>
