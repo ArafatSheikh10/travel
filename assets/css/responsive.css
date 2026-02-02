@@ -1,0 +1,960 @@
+/* XL Device :1200px. */
+@media screen and (max-width: 1449px) {
+
+    .perfect_vacation__image-2 {
+        position: absolute;
+        left: 50px;
+        top: -50px;
+        width: 175px;
+        height: 175px;
+    }
+    
+    .perfect_vacation__image-3 {
+        position: absolute;
+        right: 40px;
+        bottom: -50px;
+        width: 175px;
+        height: 175px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .hero-bg__image {
+        bottom: 15%;
+    }
+
+    .hero-people__image {
+        bottom: -5%;
+    }
+
+    .booking-item::after {
+        right: -10%;
+    }
+    
+
+}
+
+
+
+/* LG Device :992px. */
+@media screen and (max-width: 1199px) {
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .hero-area {
+        padding: 100px 0 130px;
+    }
+
+    .hero-bg__image {
+        bottom: 5%;
+    }
+
+    .hero-people__image {
+        bottom: -12%;
+    }
+
+    .booking-bar__main {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .booking-item::after {
+        display: none;
+    }
+
+    .booking-item {
+        gap: 50px;
+    }
+
+    .search-btn {
+        margin-left: 0;
+    }
+
+    .trip_plane-area {
+        padding: 150px 0 120px;
+    }
+
+    .adventure_travel-image {
+        height: 500px;
+    }
+
+    .adventure_travel-content {
+        padding-left: 50px;
+    }
+
+    .itineraries-area {
+        padding: 150px 0 120px;
+    }
+
+    .itineraries-area h2 {
+        font-size: 100px;
+    }
+
+    .itineraries-image {
+        height: 550px;
+        margin: 100px 0;
+    }
+
+    .client_reviews-box p {
+        font-size: 18px;
+    }
+
+    .pricing-card h2 {
+        font-size: 48px;
+    }
+
+    .single_content-left {
+        padding-right: 50px;
+    }
+
+    .client-reviews_box .client-reviews {
+        font-size: 25px;
+    }
+
+    .vacation-content {
+        padding-left: 40px;
+    }
+
+    .last_travel-content {
+        padding-left: 50px;
+    }
+
+}
+ 
+
+
+
+/* LG Device :992px. */
+@media screen and (max-width: 991px) {
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .meta-date {
+        font-size: 12px;
+    }
+
+    .nav-menu {
+        display: none !important;
+    }
+
+    .menu_trigger{
+        display: block;
+    }
+
+    .hero-area {
+        padding: 100px 0 130px;
+    }
+
+    .hero-bg__image {
+        display: none;
+    }
+
+    .hero-people__image {
+        display: none;
+    }
+
+    .booking-bar__main {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .booking-item::after {
+        display: none;
+    }
+
+    .booking-item {
+        gap: 50px;
+    }
+
+    .search-btn {
+        margin-left: 0;
+    }
+
+    .trip_plane-area {
+        padding: 150px 0 120px;
+    }
+
+    .adventure_travel-image {
+        height: 430px;
+    }
+
+    .adventure_travel-content {
+        padding-left: 50px;
+    }
+
+    .itineraries-area {
+        padding: 150px 0 100px;
+    }
+
+    .itineraries-area h2 {
+        font-size: 80px;
+    }
+
+    .itineraries-image {
+        height: 450px;
+        margin: 100px 0;
+    }
+
+    .client_reviews-area {
+        padding: 100px 0;
+    }
+
+    .client_reviews-box {
+        padding: 30px;
+    }
+
+    .client_reviews-box p {
+        font-size: 16px;
+    }
+
+    .trip_plane-category {
+        padding: 20px 15px;
+    }
+
+    .choose_trip-area {
+        padding: 90px 0;
+    }
+
+    .choose-trip__wraper {
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+
+    .adventure-area {
+        padding: 100px 0;
+    }
+
+    .adventure-top__image {
+        margin-left: -20%;
+    }
+    
+    .adventure-top__image img {
+        height: 400px;
+        max-width: 300px;
+    }
+
+    .adventure-area .fetured-card__wraper {
+        margin-top: 20px;
+    }
+
+    .adventure-area .fetured-card {
+        height: 350px;
+    }
+
+    .fetured-card {
+        padding: 16px;
+    }
+
+    .adventure_travel-content {
+        padding: 0;
+        padding-top: 60px;
+    }
+
+    .pricing-card h2 {
+        font-size: 48px;
+    }
+
+    .letest-blog_wraper {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .blog-content {
+        gap: 12px;
+    }
+
+    .blog-content p {
+        font-size: 14px;
+    }
+
+    .footer-area {
+        padding: 100px 0 20px;
+    }
+
+    .single-hero{
+        padding: 80px 0;
+    }
+
+    .single_content-area {
+        padding: 100px 0;
+    }
+
+    .single-page_image {
+        height: 300px;
+    }
+
+    .package-single__info h3 {
+        font-size: 30px;
+    }
+
+    .single_content-wraper {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 60px;
+    }
+
+    .single_content-box {
+        padding: 40px 0;
+        border-bottom: 1px solid #E4E4E4;
+    }
+
+    .single_content-left {
+        padding-right: 0;
+    }
+
+    .single_content-list {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .single_content-list li {
+        font-size: 14px;
+    }
+
+    .map iframe {
+        height: 300px;
+    }
+
+    .check_all-area {
+        padding: 80px 0;
+    }
+
+    .archive-post {
+        padding: 100px 0;
+    }
+
+    .preview-area {
+        padding: 80px 0;
+    }
+
+    .travel_guide-area {
+        padding: 150px 0 50px;
+    }
+
+    .destination-card h4{
+        font-size: 18px;
+    }
+
+    .travel_guide-image-2 {
+        height: 450px;
+    }
+
+    .check_all-area {
+        padding: 80px 0;
+    }
+
+    .destination-area {
+        padding: 100px 0;
+    }
+
+    .destination-area .fetured-card__wraper {
+        gap: 20px;
+    }
+
+    .next_plane-image {
+        height: 400px;
+    }
+
+    .perfect_vacation__image-wraper {
+        height: 400px;
+    }
+
+    .perfect_vacation__image-2 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .perfect_vacation__image-3 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .perfect_vacation-content{
+        margin-top: 60px;
+    }
+
+    .client-reviews_box .client-reviews {
+        font-size: 22px;
+    }
+
+    .vacation-content {
+        padding-left: 0;
+    }
+
+    .last_travel-content {
+        padding-left: 0;
+    }
+
+    .last_travel-content h2 br{
+        display: none;
+    }
+
+    .tourist-image {
+        height: 500px;
+    }
+
+    .services-area {
+        padding: 0 0 120px;
+    }
+
+    .side-content {
+        padding-left: 0;
+    }
+
+    .contact-area {
+        padding: 0 0 120px 0;
+    }
+
+    .contact-form_content {
+        padding: 40px 20px;
+    }
+
+}
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .section-caption {
+        font-size: 24px;
+    }
+
+    .primary-btn {
+        font-size: 14px;
+        padding: 15px 24px;
+    }
+
+    .package-tag{
+        font-size: 12px;
+    }
+
+    .hero-area {
+        padding: 100px 0;
+    }
+
+    .hero-content{
+        text-align: center;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .play-btn__text {
+        font-size: 16px;
+    }
+
+    .booking-area {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    .booking-bar__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .booking-bar__top p {
+        display: none;
+    }
+
+    .booking-item {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .booking-select__area .current {
+        font-size: 14px;
+    }
+
+    .booking-select__area .nice-select .option {
+        font-size: 14px;
+    }
+
+    .trip_plane-area {
+        padding: 80px 0 100px;
+    }
+
+    .package-card {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .package-image {
+        height: 200px;
+    }
+
+    .choose-trip__wraper {
+        grid-template-columns: repeat(1,1fr);
+        padding: 30px;
+    }
+
+    .choose-trip_item {
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 20px;
+    }
+
+    .choose-trip_item:last-child{
+        border: none;
+        padding: 0;
+    }
+
+    .adventure-area {
+        padding: 60px 0 100px;
+    }
+
+    .adventure-top__image {
+        display: none;
+    }
+
+    .adventure-area .fetured-card__wraper {
+        margin-top: 50px;
+    }
+
+    .adventure-area .fetured-card {
+        height: 300px;
+    }
+
+    .adventure_travel-area {
+        padding: 80px 0;
+    }
+
+    .adventure_travel-image {
+        height: 330px;
+    }
+
+    .itineraries-area {
+        padding: 100px 0 80px;
+    }
+
+    .itineraries-area h2 {
+        font-size: 60px;
+    }
+
+    .itineraries-image {
+        height: 350px;
+        margin: 60px 0;
+    }
+
+    .brand-logo_wraper {
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .client_reviews-area {
+        padding: 80px 0;
+    }
+
+    .client_reviews-wraper {
+        margin-top: 60px;
+    }
+
+    .pricing-area {
+        padding: 80px 0 100px;
+    }
+
+    .pricing-card {
+        max-width: 400px;
+        margin: auto;
+        padding: 60px 30px 30px;
+    }
+
+    .pricing-tag {
+        font-size: 12px;
+    }
+
+    .pricing-card h2 {
+        font-size: 36px;
+    }
+
+    .pricing-list li {
+        font-size: 14px;
+    }
+
+    .blog-area {
+        padding: 80px 0;
+    }
+
+    .blog-thumbnail {
+        height: 300px;
+    }
+
+    .letest-blog_wraper {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-content p {
+        font-size: 14px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+    }
+
+    .footer-area {
+        padding: 80px 0 20px;
+    }
+
+    .contact-number {
+        font-size: 22px;
+    }
+
+    .copyright-area {
+        margin-top: 80px;
+    }
+
+    .copyright-menu{
+        justify-content: center;
+    }
+
+    .copyright-menu li a {
+        font-size: 13px;
+    }
+
+    .money-transfer__menu {
+        justify-content: center;
+    }
+
+    .preview-area {
+        padding: 40px 0;
+    }
+
+    .package-wide-card {
+        grid-template-columns: 100%;
+    }
+
+    .preview-area .fetured-card {
+        height: 330px;
+    }
+
+    .destination_card-wraper {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .travel_guide-area {
+        padding: 100px 0 0px;
+    }
+
+    .travel_guide-images {
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+
+    .travel_guide-image-1 {
+        height: 305px;
+    }
+
+    .travel_guide-image-2 {
+        height: 350px;
+        margin: 0;
+    }
+
+    .destination-area .fetured-card {
+        height: 320px;
+    }
+    
+    .destination-area .fetured-card__wraper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fetured-card{
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .next_plane-area {
+        padding-top: 100px;
+    }
+
+    .next_plane-image {
+        height: 350px;
+    }
+
+    .service-card_wraper {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .perfect_vacation-area {
+        padding-top: 120px;
+    }
+
+    .perfect_vacation__image-wraper {
+        height: 320px;
+    }
+
+    .perfect_vacation__image-2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .perfect_vacation__image-3 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .perfect_vacation-content{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .perfect_vacation-content .wandering_souls {
+        padding: 0;
+    }
+
+    .vacation_service-area {
+        padding: 80px 0;
+        margin: 80px 0;
+    }
+
+    .vacation_service-area .service-card_wraper {
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 50px;
+    }
+
+    .service-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experiences-image {
+        height: 324px;
+    }
+
+    .client-reviews_box .client-reviews {
+        font-size: 18px;
+    }
+
+    .experiences-image_wraper {
+        gap: 20px;
+    }
+
+    .experiences-image_wraper .experiences-image {
+        height: 160px;
+    }
+
+    .vacation-content-list li span {
+        font-size: 18px;
+    }
+
+    .vacation-content-list li h3 {
+        font-size: 28px;
+    }
+
+    .vacation-content__bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .vacation-content__bottom h3 {
+        font-size: 30px;
+    }
+
+    .roaming-area {
+        padding: 80px 0;
+    }
+
+    .roaming-area .fetured-card {
+        height: 330px;
+    }
+
+    .last_travel-area {
+        padding: 80px 0;
+        margin: 60px 0;
+        margin-top: 0;
+    }
+
+    .trip-price_card {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .trip-price__image {
+        height: 250px;
+    }
+
+    .trip-price__content ul li {
+        font-size: 14px;
+    }
+
+    .last_travel-content .client-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tourist-area {
+        padding: 80px 0;
+    }
+
+    .tourist-image {
+        height: 300px;
+    }
+
+    .services-area .service-card_wraper {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .services-area {
+        padding: 0 0 80px;
+    }
+
+    .plan-area {
+        padding: 100px 0;
+    }
+
+    .side-area {
+        padding: 80px 0;
+    }
+
+    .enjoy-area {
+        padding-bottom: 80px;
+    }
+
+    .enjoy-list h4 {
+        font-size: 14px;
+    }
+    
+    .contact-wraper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .agency-logo__wraper {
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+
+    .side-box__wraper {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .side-flat__box-1 {
+        border-bottom: 1px solid var(--border-color);
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .side-flat__box-2 {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+}
+
+
+/* SM Small Device :320px to 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .booking-item {
+        flex-direction: row;
+    }
+
+    .choose-trip__wraper {
+        grid-template-columns: repeat(2,1fr);
+        padding: 30px;
+    }
+
+    .choose-trip_item {
+        border-right: 1px solid var(--border-color);
+        border-bottom: 0;
+        padding-bottom:0;
+    }
+
+    .brand-logo_wraper {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .destination_card-wraper {
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+
+    .travel_guide-images {
+        grid-template-columns: 53% 43%;
+    }
+
+    .destination-area .fetured-card__wraper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vacation_service-area .service-card_wraper {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .trip-price__content {
+        padding: 30px 0;
+        gap: 12px;
+    }
+
+    .services-area .service-card_wraper {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .side-box__wraper {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .side-flat__box-1 {
+        border-bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .side-flat__box-2 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .agency-logo__wraper {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
