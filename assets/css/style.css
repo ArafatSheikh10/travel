@@ -309,18 +309,19 @@ p a{
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    padding: 70px 20px 40px;
+    padding: 50px 20px 40px;
     background-color: var(--white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .sidebar_dismess {
     position: absolute;
-    right: 5%;
-    top: 4%;
+    right: 4%;
+    top: 3%;
     background: transparent;
     border: none;
     font-size: 20px;
@@ -357,7 +358,7 @@ p a{
 .sport-image{
     width: 55px;
     height: 55px;
-    border-radius:8px;
+    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -368,18 +369,18 @@ p a{
 }
 
 .mobail-contact__wraper {
-    width: 300px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .mobail-contact__wraper a{
     display: inline-block;
     color: var(--text-color);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: var(--regular);
     text-decoration: none;
     margin-top: 10px;
